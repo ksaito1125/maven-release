@@ -1,0 +1,3 @@
+#! /bin/bash
+
+mvn -Drat.skip=true compile

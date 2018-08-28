@@ -181,7 +181,7 @@ public class RemoveReleasePomsPhaseTest
         {
             reader = new BufferedReader( new StringReader( result.getOutput() ) );
 
-            assertEquals( "[INFO] Removing release POM for 'artifactId'...",
+            assertEquals( "[INFO] Renoving release POM for 'artifactId'...",
                           reader.readLine() );
             assertEquals( "Expected EOF", null, reader.readLine() );
         }
@@ -217,7 +217,7 @@ public class RemoveReleasePomsPhaseTest
         {
             reader = new BufferedReader( new StringReader( result.getOutput() ) );
 
-            assertEquals( "[INFO] Removing release POM for 'artifactId'...",
+            assertEquals( "[INFO] Renoving release POM for 'artifactId'...",
                           reader.readLine() );
             assertEquals( "[INFO] Full run would be removing [" + reactorProjects.get( 0 ).getFile().getParent()
                 + File.separator + "release-pom.xml]", reader.readLine() );

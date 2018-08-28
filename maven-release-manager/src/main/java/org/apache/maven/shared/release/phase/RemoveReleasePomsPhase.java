@@ -92,7 +92,7 @@ public class RemoveReleasePomsPhase
 
         for ( MavenProject project : projects )
         {
-            logInfo( result, "Removing release POM for '" + project.getName() + "'..." );
+            logInfo( result, "Renoving release POM for '" + project.getName() + "'..." );
 
             releasePoms.add( ReleaseUtil.getReleasePom( project ) );
         }
